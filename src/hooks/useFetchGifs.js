@@ -8,6 +8,7 @@ export const useFetchGifs = (category) => {
         getGifs(category)
             .then(setData)
         setloading(false)
+        console.log(loading);
     }, [category])//si la categoria cambia que vuelva a ejecuatar
     return {loading,data};
 }
