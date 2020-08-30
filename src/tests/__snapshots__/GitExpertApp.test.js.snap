@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas a GitExpertApp Comprobamos que existan categorias iniciales 1`] = `
+<div>
+  <h2>
+    GifExpertApp
+  </h2>
+  <CategoryAdd
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="Homer"
+      key="Homer"
+    />
+  </ol>
+</div>
+`;
+
+exports[`Pruebas a GitExpertApp Renderizado el componente con snapshot 1`] = `
+<div>
+  <h2>
+    GifExpertApp
+  </h2>
+  <CategoryAdd
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</div>
+`;

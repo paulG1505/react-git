@@ -2,14 +2,10 @@
 import React, { useState } from 'react'
 import { CategoryAdd } from './components/CategoryAdd'
 import { GifGrid } from './components/GifGrid'
-
-const GitExpertApp = () => {
-    const [categories, setCategories] = useState([''])
-    // const handleAdd=()=>{
-    //     const n='asd'
-    //     //agregando elemento en un arreglo
-    //     setCategories([...categories,n])
-    // }
+//le mandamos unas categorias por defecto
+export const GitExpertApp = ({defaultCategories=[]}) => {
+    const [categories, setCategories] = useState(defaultCategories)
+    
 
     return (
         <div>
